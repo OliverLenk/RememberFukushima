@@ -1,0 +1,157 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.938em/1.38 'Gentium Basic';
+  color: rgb(0,0,0);
+}
+
+.datetxt {
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 71px;
+  margin: -2476px 0 0 5.0505050505%;
+  font: 400 0.867em/1.38 Lato;
+  text-align: right;
+  color: rgb(0,0,0);
+}
+
+.element {
+  float: left;
+}
+
+.h1 {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 66%;
+  margin: -1894px 0 0 17%;
+  font: 700 5.867em/1.38 Lato;
+  text-align: center;
+  color: rgb(158, 42, 42);
+  word-break: break-word;
+  -webkit-transition: margin 0.7s ease-out 0.3s;
+  -moz-transition: margin 0.7s ease-out 0.3s;
+  -o-transition: margin 0.7s ease-out 0.3s;
+  -ms-transition: margin 0.7s ease-out 0.3s;
+  transition: margin 0.7s ease-out 0.3s;
+}
+
+.h1sub {
+  display: inline-block;
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 25.5%;
+  margin: -1780px 0 0 37%;
+  background-color: rgba(0, 0, 0, 0.65);
+  font: 100 2.133em/1.38 Lato;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-transition: margin 0.7s ease-out 0.3s;
+  -moz-transition: margin 0.7s ease-out 0.3s;
+  -o-transition: margin 0.7s ease-out 0.3s;
+  -ms-transition: margin 0.7s ease-out 0.3s;
+  transition: margin 0.7s ease-out 0.3s;
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.stop_witness {
+  position: relative;
+  float: left;
+  z-index: 13;
+  width: 40.5%;
+  height: 466px;
+  margin: -1151px 0 0 51.25%;
+}
+
+.text {
+  float: left;
+  clear: both;
+  width: 58.024691358%;
+  margin: -180px 0 0 41.9753086419%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
+
+.text p {
+  margin-bottom: 0.4em;
+}
+
+.time {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 99px;
+  height: 2000px;
+  margin-top: -1411px;
+}
+
+.time .element {
+  width: 1px;
+  height: 2439px;
+  margin: -2811px 0 0 78.7878787878%;
+  background-color: rgb(158, 62, 62);
+}
+
+.timeback {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 78px;
+  height: 2811px;
+  background-color: rgb(241, 241, 241);
+}
+
+.timetxt {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 3;
+  width: 71px;
+  margin: -2461px 0 0 4.0404040404%;
+  font: 400 0.733em/1.38 Lato;
+  text-align: right;
+  color: rgb(0,0,0);
+}
+
+.witness {
+  display: inline-block;
+  float: left;
+  margin: 13px 0 0 4.9382716049%;
+  background-color: rgba(0, 0, 0, 0.65);
+  font: 300 1.467em/1.38 Lato;
+  color: rgb(255, 255, 255);
+}
+
+._element {
+  position: relative;
+  z-index: 0;
+  width: 108.5%;
+  height: 2101px;
+  margin: -15px 0 0 -3.7500000001%;
+  background-color: rgb(247, 247, 247);
+}
+
+.image-1 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  width: 100%;
+  margin-top: -2086px;
+}
+
+.image-2 {
+  width: 37.037037037%;
+}
+
+.image-3 {
+  width: 78.1893004115%;
+  margin-top: 17px;
+}

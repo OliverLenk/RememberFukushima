@@ -1,0 +1,169 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height:100%;
+	overflow: hidden;
+
+	background:#fff;
+}
+
+#wrapper{
+	z-index: 1;
+	margin: 0 auto;
+	width: 640px;
+	height: 100%;
+}
+
+img{
+	border: 0;
+}
+
+/*sidebar MENU*/
+#menu{
+	position: fixed;
+	top: 13px;
+	right: 8px;
+	color: #737373;
+	text-align: center;
+	-webkit-animation: fadeInRight 1s;
+	-webkit-animation-delay: 1s;
+
+}
+
+#navToggle{
+	visibility: hidden;
+}
+
+#navToggle:checked ~ #wrapper{
+  margin-left: -100px;
+}
+
+/*#menu_button{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	height: 4px;
+	width: 20px;
+	margin-bottom: 2px;
+	border-top: 2px solid #737373;
+	border-bottom: 2px solid #737373;
+	border-left: 0px solid #fff;
+	border-right: 0px solid #fff;
+}*/
+
+#menu_text{
+	font-size: 11px;
+	font-weight: 100;
+}
+
+#menu_content{
+	z-index: -1;
+	visibility: hidden;
+	width: 100px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-right: 2%;
+	padding-top: 1%;
+	background: #fafafa;
+	color: #000;
+	text-align: right;
+}
+
+#menu_content ul{
+	list-style: none;
+}
+
+#menu_content ul li a{
+	text-decoration: none;
+	color: #0a0a0a;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.bird1{
+	z-index:3;
+	position:relative;
+	left: 90px;
+	top: 145px;
+	width: 50px;
+	height:auto;
+}
+
+.bird2{
+	z-index:3;
+	position:relative;
+	left: 250px;
+	top: 300px;
+	width: 50px;
+	height:auto;
+}
+
+#circleFrame::-webkit-scrollbar { 
+    display: none;
+}
+#circleFrame{
+	display: block;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 540px;
+	height: 540px;
+	border: 6px solid #E30613;
+	border-radius: 270px;
+	overflow-x: hidden;
+	overflow-y: auto; 
+}
+
+.mainHEADER{
+	text-align: center;
+	margin-top:160px;
+	font-family: sans-serif;
+	font-size: 54px;
+	color: #E30613;
+	font-weight: 100;
+}
+
+.wavesSTART{
+	margin-left:-10px;
+	margin-top: 200px;
+	width: 560px;
+	height: auto;
+}
+.wavesSTART2{
+	margin-left:-10px;
+	margin-top: -5px;
+	width: 560px;
+	height: auto;
+}
+
+
+
+#scrolldown_button{
+	opacity: 0.8;
+	width: 48px;
+	height: 48px;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #E30613;
+	border-radius: 25px;
+	text-align: center;
+	color: #E30613;
+	font-size: 24px;
+	line-height: 46px;
+	-webkit-animation: fadeInDown 1s;
+}
+#scrolldown{
+	opacity: 0.8;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #E30613;
+	font-size: 16px;
+	-webkit-animation: fadeIn 2s;
+	-webkit-animation-delay: 0.5s;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>circle frame animation</title>
+		
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/animate.css">
+
+	</head>
+	
+	<body>
+		
+		<script>
+		var controller;
+		$(document).ready(function($){
+			//init controller
+			var controller = new ScrollMagic();
+			});
+		</script>
+
+		<div id="menu">
+		<input type='checkbox' id='navToggle'/>
+		<label for="navToggle" id="menu_text">menu</label>
+		<!--<div id="menu_text">menu</div>-->
+		</div>
+
+			<div id="menu_content">
+				<ul>
+					<li><a href="">about</a></li>
+					<li><a href="">contact</a></li>
+				</ul>
+			</div>
+
+
+	<div id="wrapper">
+
+		<div id="circleFrame">
+			<img class="bird1" src="svg/bird1.svg" alt="bird1">
+			<img class="bird2" src="svg/bird2.svg" alt="bird2">
+			<h1 class="mainHEADER">fukushima</h1>
+			<img class="wavesSTART" src="svg/wavesSTART.svg" alt="wavesSTART">
+			<img class="wavesSTART2" src="svg/wavesSTART.svg" alt="wavesSTART">
+		</div>
+
+		<div id="scrolldown_button">v</div>
+		<div id="scrolldown">scroll down</div>
+	</div>
+
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!--CDN link for the latest TweenMax-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="js/jquery.scrollmagic.js"></script>
+	<script src="js/scrollmagic_control.js"></script>
+	<script src="js/scrolleverywhere.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/sidebarmenu.js"></script>
+	
+	</body>
+</html>
