@@ -1,0 +1,78 @@
+<html>
+	<head>
+
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/scrolleverywhere.js"></script>
+		<!--CDN link for the latest TweenMax-->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		
+		<script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
+		
+		<link rel="stylesheet" href="css/normalize.css">		
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/animate.css">
+
+	</head>
+
+	<body>
+		<script>
+			var controller;
+			$(document).ready(function($) {
+				// init controller
+				controller = new ScrollMagic();
+			});
+		</script>
+
+	<div id="wrapper">
+		<section class="firstScene">
+			<div class="space s1"></div>
+			<div id="trigger1" class="spacer s1"></div>
+			<img class="animate1 bird1" src="svg/bird1.svg" alt="bird1">
+			<img class="animate1 bird2" src="svg/bird1.svg" alt="bird2">
+
+			<script>
+				$(document).ready(function($) {
+
+					// build tween
+					var tween = TweenMax.staggerFromTo(".animate1", 2, {left:-50}, {left: 550}, 0.25);
+
+					//build scene
+					var scene = new ScrollScene({triggerElement: "trigger1", duration: 270})
+									.setTween(tween)
+									.addTo(controller);
+
+				});
+			</script>
+			
+			<div id="trigger2"></div>
+
+			<h1>fukushima</h1>
+
+			<img class="animate2 waves" src="svg/waves.svg" alt="waves">
+			<img class="animate3 waves" src="svg/waves.svg" alt="waves">
+
+			<script>
+				$("#wrapper").ready(function($) {
+
+					// build tween
+					var tween = TweenMax.FromTo(".animate2", 1,
+												 {left:-40}, {left: 540, repeat: -1, yoyo: true,
+												 	ease: Circ.easeInOut}
+						);
+
+					//build scene
+					var scene = new ScrollScene({triggerElement: "trigger2", duration: 100, offset: -40})
+									.setTween(tween)
+									.addTo(controller);
+
+				});
+			</script>
+
+		</section>
+
+	</div>
+
+	</body>
+
+</html>
